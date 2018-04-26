@@ -1,6 +1,5 @@
 # ---animate.css-
-animate.css是一个使用CSS3制作的动画效果的CSS集合，里面预设了很多种常用的动画，且使用非常简单
-####起因：
+#起因：
 公司想开发一款微信小程序，1.没有人做过  2.找不到人做。加上我刚进公司，iOS项目一直在计划中，始终没能定下来，就想着先做一款小程序吸引用户进来，最后再开发软件。于是就把我调来开发这款小程序，想着应该不会太难，也就没推辞，把微信小程序文档API全部过一遍，然后一边看文档，一边练习，慢慢就上手了...
 
 微信有自己开发的专门用来做动画的API，简单点的动画（旋转，平移，缩放）用自带的就可以了，今天我用的是CSS3的一个动画库，
@@ -11,11 +10,11 @@ animate.css是一个使用CSS3制作的动画效果的CSS集合，里面预设�
 ![效果图.gif](https://upload-images.jianshu.io/upload_images/1482470-22689c2ee96b1857.gif?imageMogr2/auto-orient/strip)
 
 #使用方法：
-######1.把`animate.wxss`文件放进工程中，在`app.wxss`中引入
+#1.把`animate.wxss`文件放进工程中，在`app.wxss`中引入
 ```
 @import "文件路径/animate.wxss";
 ```
-######2.需要加动画的标签设置如下
+#2.需要加动画的标签设置如下
 ```
 <view>
 <text class='animated bounce'>微信小程序</text>
@@ -29,7 +28,7 @@ animate.css是一个使用CSS3制作的动画效果的CSS集合，里面预设�
 ```
 >**解释**：`animated`必须要写，这样才能真正使用， `bounce`是`animate.wxss`的其中一个动画,你可以选择你需要的动画，当然了，你也可以修改动画的参数来满足项目中的需求！！！
 
-######3.可以通过`*.js`中动态改变动画效果
+#3.可以通过`*.js`中动态改变动画效果
 ```
 //.wxml
 <view class='containView'>
@@ -53,7 +52,7 @@ animate.css是一个使用CSS3制作的动画效果的CSS集合，里面预设�
 }
 这样就实现了动画改变，是不是很简单呀！！！
 ```
-######5.参考资料
+#5.参考资料
 >animate.css官网:https://daneden.me/animate/
 
 
