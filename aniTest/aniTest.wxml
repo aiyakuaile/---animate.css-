@@ -1,0 +1,143 @@
+<view class='containView'>
+<text class='{{animationType}}'>微信小程序</text>
+</view>
+<view class='aniDes'><text>当前的动画类型：{{animationName}}</text></view>
+<checkbox-group bindchange="checkboxChange">
+<label class='boxlabel'><checkbox>循环</checkbox></label>
+</checkbox-group>
+<button class='btn' bindtap='clickBtn'>开始动画</button>
+
+<scroll-view scroll-y catchtap='clickAniBtn' class='scrollView'>
+
+<view class="AttentionSeekers">
+  <text style='width:100%;font-size:13px;padding:10rpx;background-color:green;color:white;'>Attention Seekers</text>
+    <button data-btnName="bounce">bounce</button>
+    <button data-btnName="flash">flash</button>
+    <button data-btnName="pulse">pulse</button>
+    <button data-btnName="rubberBand">rubberBand</button>
+    <button data-btnName="shake">shake</button>
+    <button data-btnName="swing">swing</button>
+    <button data-btnName="tada">tada</button>
+    <button data-btnName="wobble">wobble</button>
+    <button data-btnName="jello">jello</button>
+</view>
+
+<view class="AttentionSeekers">
+<text style='width:100%;font-size:13px;padding:10rpx;background-color:green;color:white;'>Bouncing Entrances</text>
+    <button data-btnName="bounceIn">bounceIn</button>
+    <button data-btnName="bounceInDown">bounceInDown</button>
+    <button data-btnName="bounceInLeft">bounceInLeft</button>
+    <button data-btnName="bounceInRight">bounceInRight</button>
+    <button data-btnName="bounceInUp">bounceInUp</button>
+</view>
+
+<view class="AttentionSeekers">
+<text style='width:100%;font-size:13px;padding:10rpx;background-color:green;color:white;'>Bouncing Exits</text>
+    <button data-btnName="bounceOut">bounceOut</button>
+    <button data-btnName="bounceOutDown">bounceOutDown</button>
+    <button data-btnName="bounceOutLeft">bounceOutLeft</button>
+    <button data-btnName="bounceOutRight">bounceOutRight</button>
+    <button data-btnName="bounceOutUp">bounceOutUp</button>
+</view>
+
+<view class="AttentionSeekers">
+<text style='width:100%;font-size:13px;padding:10rpx;background-color:green;color:white;'>Fading Entrances</text>
+    <button data-btnName="fadeIn">fadeIn</button>
+    <button data-btnName="fadeInDown">fadeInDown</button>
+    <button data-btnName="fadeInDownBig">fadeInDownBig</button>
+    <button data-btnName="fadeInLeft">fadeInLeft</button>
+    <button data-btnName="fadeInLeftBig">fadeInLeftBig</button>
+    <button data-btnName="fadeInRight">fadeInRight</button>
+    <button data-btnName="fadeInRightBig">fadeInRightBig</button>
+    <button data-btnName="fadeInUp">fadeInUp</button>
+    <button data-btnName="fadeInUpBig">fadeInUpBig</button>
+</view>
+
+<view class="AttentionSeekers">
+<text style='width:100%;font-size:13px;padding:10rpx;background-color:green;color:white;'>Fading Exits</text>
+    <button data-btnName="fadeOut">fadeOut</button>
+    <button data-btnName="fadeOutDown">fadeOutDown</button>
+    <button data-btnName="fadeOutDownBig">fadeOutDownBig</button>
+    <button data-btnName="fadeOutLeft">fadeOutLeft</button>
+    <button data-btnName="fadeOutLeftBig">fadeOutLeftBig</button>
+    <button data-btnName="fadeOutRight">fadeOutRight</button>
+    <button data-btnName="fadeOutRightBig">fadeOutRightBig</button>
+    <button data-btnName="fadeOutUp">fadeOutUp</button>
+    <button data-btnName="fadeOutUpBig">fadeOutUpBig</button>
+</view>
+
+<view class="AttentionSeekers">
+<text style='width:100%;font-size:13px;padding:10rpx;background-color:green;color:white;'>Flippers</text>
+    <button data-btnName="flip">flip</button>
+    <button data-btnName="flipInX">flipInX</button>
+    <button data-btnName="flipInY">flipInY</button>
+    <button data-btnName="flipOutX">flipOutX</button>
+    <button data-btnName="flipOutY">flipOutY</button>
+</view>
+
+<view class="AttentionSeekers">
+<text style='width:100%;font-size:13px;padding:10rpx;background-color:green;color:white;'>Lightspeed</text>
+    <button data-btnName="lightSpeedIn">lightSpeedIn</button>
+    <button data-btnName="lightSpeedOut">lightSpeedOut</button>
+</view>
+
+<view class="AttentionSeekers">
+<text style='width:100%;font-size:13px;padding:10rpx;background-color:green;color:white;'>Rotating Entrances</text>
+    <button data-btnName="rotateIn">rotateIn</button>
+    <button data-btnName="rotateInDownLeft">rotateInDownLeft</button>
+    <button data-btnName="rotateInDownRight">rotateInDownRight</button>
+    <button data-btnName="rotateInUpLeft">rotateInUpLeft</button>
+    <button data-btnName="rotateInUpRight">rotateInUpRight</button>
+</view>
+
+<view class="AttentionSeekers">
+<text style='width:100%;font-size:13px;padding:10rpx;background-color:green;color:white;'>Rotating Exits</text>
+    <button data-btnName="rotateOut">rotateOut</button>
+    <button data-btnName="rotateOutDownLeft">rotateOutDownLeft</button>
+    <button data-btnName="rotateOutDownRight">rotateOutDownRight</button>
+    <button data-btnName="rotateOutUpLeft">rotateOutUpLeft</button>
+    <button data-btnName="rotateOutUpRight">rotateOutUpRight</button>
+</view>
+
+<view class="AttentionSeekers">
+<text style='width:100%;font-size:13px;padding:10rpx;background-color:green;color:white;'>Sliding Entrances</text>
+    <button data-btnName="slideInUp">slideInUp</button>
+    <button data-btnName="slideInDown">slideInDown</button>
+    <button data-btnName="slideInLeft">slideInLeft</button>
+    <button data-btnName="slideInRight">slideInRight</button>
+</view>
+
+<view class="AttentionSeekers">
+<text style='width:100%;font-size:13px;padding:10rpx;background-color:green;color:white;'>Sliding Exits</text>
+    <button data-btnName="slideOutUp">slideOutUp</button>
+    <button data-btnName="slideOutDown">slideOutDown</button>
+    <button data-btnName="slideOutLeft">slideOutLeft</button>
+    <button data-btnName="slideOutRight">slideOutRight</button>
+</view>
+
+<view class="AttentionSeekers">
+<text style='width:100%;font-size:13px;padding:10rpx;background-color:green;color:white;'>Zoom Entrances</text>
+    <button data-btnName="zoomIn">zoomIn</button>
+    <button data-btnName="zoomInDown">zoomInDown</button>
+    <button data-btnName="zoomInLeft">zoomInLeft</button>
+    <button data-btnName="zoomInRight">zoomInRight</button>
+    <button data-btnName="zoomInUp">zoomInUp</button>
+</view>
+
+<view class="AttentionSeekers">
+<text style='width:100%;font-size:13px;padding:10rpx;background-color:green;color:white;'>Zoom Exits</text>
+    <button data-btnName="zoomOut">zoomOut</button>
+    <button data-btnName="zoomOutDown">zoomOutDown</button>
+    <button data-btnName="zoomOutLeft">zoomOutLeft</button>
+    <button data-btnName="zoomOutRight">zoomOutRight</button>
+    <button data-btnName="zoomOutUp">zoomOutUp</button>
+</view>
+
+<view class="AttentionSeekers">
+<text style='width:100%;font-size:13px;padding:10rpx;background-color:green;color:white;'>Specials</text>
+    <button data-btnName="hinge">hinge</button>
+    <button data-btnName="jackInTheBox">jackInTheBox</button>
+    <button data-btnName="rollIn">rollIn</button>
+    <button data-btnName="rollOut">rollOut</button>
+</view>
+</scroll-view> 
